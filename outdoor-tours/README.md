@@ -1,2 +1,3 @@
-# static-sites
-All the static sites will be present here
+# Outdoor-Tours
+
+Ref [Julio Codes Tutorial](https://www.youtube.com/watch?v=j_Xa7Kn59Es)
