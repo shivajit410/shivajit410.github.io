@@ -425,6 +425,7 @@ main .post-content .post-title a {
   padding: 0.4rem 1rem;
   border-radius: 3rem;
   margin: 0.4rem 0.6rem;
+  cursor: pointer;
 }
 
 /*-----x----- Sidebar -----x----- */
