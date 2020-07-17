@@ -764,9 +764,9 @@ html {
 /* -----x----- Max width 650px -----x----- */
 
 /* ---------- Max width 500px ---------- */
-
+@media (max-width: 500px) {
 html {
   font-size: 45%;
 }
-
+}
 /* -----x----- Max width 500px -----x----- */
