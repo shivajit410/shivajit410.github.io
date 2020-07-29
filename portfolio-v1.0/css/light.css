@@ -1,0 +1,14 @@
+:root {
+    /* Colors */
+    --primary-color: #e31b6d;
+    --secondary-color: #a8a4a4;
+    --color-2: #000;
+    --color-1: #ffffff;
+  
+    /* Font family */
+    --russo: "Russo One", sans-serif;
+    --merrieweather: "Merriweather", sans-serif;
+    --diplomata-sc: "Diplomata SC", sans-serif;
+    --source-code-pro: "Source Code Pro", sans-serif;
+  }
+  
