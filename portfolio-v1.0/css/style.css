@@ -642,6 +642,7 @@ body {
 }
 
 .icon span h3 {
+  color: var(--color-1);
   font-family: var(--merrieweather);
   font-size: 1.8rem;
   letter-spacing: 0.2rem;
