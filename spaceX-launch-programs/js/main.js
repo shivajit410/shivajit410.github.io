@@ -64,7 +64,8 @@
             data.forEach(function (launchData, index) {
                 cardData.append(`
                                 <div class="card">
-                                    <img src="${launchData.links.mission_patch_small}" alt="${launchData.mission_name}">
+                                    <img src="${launchData.links.mission_patch_small}" alt="${launchData.mission_name}"> 
+                                    <!-- <img src="media/placeholder.png" alt="${launchData.mission_name}"> -->
                                     <div class="content-wrapper">
                                         <h4>${launchData.mission_name} #${launchData.flight_number}</h4>
                                         <div class="data-row">
