@@ -99,7 +99,7 @@ body {
   letter-spacing: 0.2rem;
 }
 
-.typing-animation > .cursor {
+.typing-animation>.cursor {
   border-right: 0.2rem solid var(--primary-color);
 }
 
@@ -137,9 +137,11 @@ body {
   0% {
     opacity: 1;
   }
+
   50% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
@@ -190,13 +192,16 @@ body {
   background-color: var(--primary-color);
   box-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.2);
 }
+
 .change .line-1 {
   transform: rotate(45deg) translate(0.3rem, 0.8rem);
 }
+
 .change .line-2 {
   opacity: 0;
   visibility: hidden;
 }
+
 .change .line-3 {
   transform: rotate(-45deg) translate(0.3rem, -0.8rem);
 }
@@ -216,54 +221,54 @@ body {
   right: 0;
 }
 
-.toggle-switch{
+.toggle-switch {
   position: absolute;
   top: 5rem;
   right: 5rem;
 }
 
 .checkbox {
-	opacity: 0;
-	position: absolute;
+  opacity: 0;
+  position: absolute;
 }
 
 .label {
-	background-color: var(--color-1);
-	border-radius: 50px;
-	cursor: pointer;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	padding: 5px;
-	position: relative;
-	height: 26px;
-	width: 50px;
-	transform: scale(1.5);
+  background-color: var(--color-1);
+  border-radius: 50px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  position: relative;
+  height: 26px;
+  width: 50px;
+  transform: scale(1.5);
 }
 
 .label .ball {
-	background-color: var(--color-2);
-	border-radius: 50%;
-	position: absolute;
-	top: 2px;
-	left: 2px;
-	height: 22px;
-	width: 22px;
-	transform: translateX(0px);
-	transition: transform 0.2s linear;
+  background-color: var(--color-2);
+  border-radius: 50%;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  height: 22px;
+  width: 22px;
+  transform: translateX(0px);
+  transition: transform 0.2s linear;
 }
 
-.checkbox:checked + .label .ball {
-	transform: translateX(24px);
+.checkbox:checked+.label .ball {
+  transform: translateX(24px);
 }
 
 
 .fa-moon {
-	color: #f1c40f;
+  color: #f1c40f;
 }
 
 .fa-sun {
-	color: #f39c12;
+  color: #f39c12;
 }
 
 
@@ -301,6 +306,7 @@ body {
 .menu-link:hover::before {
   width: 100%;
 }
+
 .social-media {
   position: absolute;
   bottom: 3rem;
@@ -506,6 +512,15 @@ body {
   object-fit: cover;
 }
 
+.angular {
+  position: absolute;
+  top: 66%;
+  left: 10%;
+  width: 8%;
+  height: 9%;
+  object-fit: cover;
+}
+
 .sass {
   position: absolute;
   top: 57%;
@@ -670,16 +685,17 @@ body {
   transform: translateX(-60%) rotate(45deg);
 }
 
-.icon:hover > span {
+.icon:hover>span {
   visibility: visible;
   opacity: 1;
 }
+
 /* ---x--- My Work ---x--- */
 
 
 /* ------ Blog ------ */
 
-.blog{
+.blog {
   width: 100%;
   height: 100vh;
   position: relative;
@@ -698,19 +714,19 @@ body {
   padding-top: 1rem;
 }
 
-.blog-data{
+.blog-data {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.contentBx{
+.contentBx {
   color: var(--color-2);
   max-width: 40%;
   margin-left: 15rem;
 }
 
-.contentBx h2{
+.contentBx h2 {
   font-family: var(--russo);
   font-size: 8rem;
   letter-spacing: 0.3rem;
@@ -718,24 +734,24 @@ body {
   padding-bottom: 2rem;
 }
 
-.contentBx p{
+.contentBx p {
   font-family: var(--merrieweather);
   font-size: 1.6rem;
   letter-spacing: 0.2rem;
   line-height: 2.8rem;
 }
 
-.quote-writer{
+.quote-writer {
   color: var(--primary-color);
-  
+
 }
 
-.countdown{
+.countdown {
   display: flex;
   margin: 3rem 0;
 }
 
-.time{
+.time {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -750,14 +766,14 @@ body {
   color: var(--primary-color);
 }
 
-.time span{
+.time span {
   margin-top: -0.5rem;
   font-size: 2rem;
   font-weight: 600;
   color: var(--color-1);
 }
 
-.imgBx img{
+.imgBx img {
   position: relative;
   bottom: -4rem;
   right: 25rem;
@@ -767,7 +783,7 @@ body {
   z-index: 1;
 }
 
-.wave{
+.wave {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -792,17 +808,17 @@ body {
 
 .contact {
   padding: 15rem 0 20rem 0;
-    position: relative; 
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
 
 
-.contact::before{
+.contact::before {
   content: "";
   background-image: url('../media/wallpaper_01.jpg');
   background-size: cover;
@@ -813,7 +829,7 @@ body {
   left: 0px;
   opacity: 0.3;
 
-  
+
 }
 
 .contact-heading {
@@ -973,7 +989,7 @@ body {
 
 /* ------ Demo ------ */
 
-.scroll-btn{
+.scroll-btn {
   position: fixed;
   right: 2rem;
   bottom: 2rem;
@@ -982,7 +998,7 @@ body {
 
 
 
-.scroll-text{
+.scroll-text {
   color: var(--primary-color);
   position: fixed;
   right: 8rem;
@@ -993,7 +1009,7 @@ body {
   visibility: hidden;
 }
 
-.scroll:hover > span{
+.scroll:hover>span {
   opacity: 1;
   visibility: visible;
 }
