@@ -94,7 +94,7 @@ function parallax(e){
 }
 
 
-var countDate = new Date('Apr 4, 2022 00:00:00').getTime();
+var countDate = new Date('Jun 21, 2026 00:00:00').getTime();
 
 function newYear(){
     var now = new Date().getTime();
